@@ -1,3 +1,0 @@
-/home/paczk/studia/HPC/Projekt_HPC/unoptimized/build/CMakeFiles/test.dir
-/home/paczk/studia/HPC/Projekt_HPC/unoptimized/build/CMakeFiles/edit_cache.dir
-/home/paczk/studia/HPC/Projekt_HPC/unoptimized/build/CMakeFiles/rebuild_cache.dir

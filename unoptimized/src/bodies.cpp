@@ -1,30 +1,37 @@
+#include <vector>
 #include "bodies.hpp"
-#include <cmath>
 
-Body::Body(int id, double x, double y, double z, double e0, double e1, double e2, double e3)
-    : id(id), q(7)
+class Body
 {
-    double norm = std::sqrt(e0*e0 + e1*e1 + e2*e2 + e3*e3);
-    e0 /= norm;
-    e1 /= norm;
-    e2 /= norm;
-    e3 /= norm;
-    q << x, y, z, e0, e1, e2, e3;
-}
+    public:
+        Body(int id, double x, double y, double z, const std::vector<double>& euler_angles)
+            : id(id), x(x), y(y), z(z), euler_angles(euler_angles) {}
 
-void Body::setPosition(const Eigen::VectorXd& position)
-{
-    q = position;
-}
+        void setPosition(const std::vector<double>& position)
+        {
+            if (position.size() < 7) return;
+            x = position[0];
+            y = position[1];
+            z = position[2];
+            euler_angles.clear();
+            euler_angles.insert(euler_angles.end(), position.begin() + 3, position.end());
+        }
 
-const Eigen::VectorXd& Body::getPosition()
-{
-    return q;
-}
-
-int Body::getId()
-{
-    return id;
-}
-
+        const std::vector<double>& getPosition() const
+        {
+            std::vector<double> position;
+            position.push_back(x);
+            position.push_back(y);
+            position.push_back(z);
+            position.insert(position.end(), euler_angles.begin(), euler_angles.end());
+            return position;
+        }
+        
+    private:
+        int id;
+        double x;
+        double y;
+        double z;
+        std::vector<double> euler_angles;
+};
 
