@@ -16,6 +16,7 @@ class Constraint
         int id;
         int body1_id;
         int body2_id;
+        int a;
         
 };
 
