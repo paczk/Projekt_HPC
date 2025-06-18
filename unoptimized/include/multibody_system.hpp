@@ -11,17 +11,19 @@ class MultibodySystem
     public:
         MultibodySystem();
 
-        void addBody(Body& body);
+        void addBody(const Body& body);
 
-        void addConstraint(const Constraint& constraint);
+        void addConstraint(const Constraint& constraint); 
 
-        int getNumBodies();
+        int getNumBodies() const;
 
-        int getNumConstraints();
+        int getNumConstraints() const;
 
         const std::vector<Body>& getBodies() const;
         const std::vector<int>& getBodyIds() const;
         const std::vector<std::shared_ptr<Constraint>>& getConstraints() const;
+
+        const Eigen::VectorXd& getBodyParameters(int id) const;
     
     private:
         std::vector<Body> bodies;

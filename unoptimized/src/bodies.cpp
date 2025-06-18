@@ -1,5 +1,6 @@
 #include "bodies.hpp"
 #include <cmath>
+#include <Eigen/Dense>
 
 Body::Body(int id, double x, double y, double z, double e0, double e1, double e2, double e3)
     : id(id), q(7)
@@ -17,12 +18,12 @@ void Body::setPosition(const Eigen::VectorXd& position)
     q = position;
 }
 
-const Eigen::VectorXd& Body::getPosition()
+const Eigen::VectorXd& Body::getPosition() const
 {
     return q;
 }
 
-int Body::getId()
+int Body::getId() const
 {
     return id;
 }

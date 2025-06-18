@@ -4,8 +4,9 @@
 #include <algorithm>
 #include "bodies.hpp"
 #include "quaternion_operations.hpp"
+#include <memory>
 
-const Eigen::VectorXd ground {0, 0, 0, 1, 0, 0, 0};
+const Eigen::Matrix<double, 7, 1> ground {0, 0, 0, 1, 0, 0, 0};
 
 Eigen::Map<const Eigen::VectorXd> get_body_position(const Eigen::VectorXd& q, int id, const std::vector<int>& body_ids)
 {
@@ -55,6 +56,10 @@ DistanceConstraint::DistanceConstraint(int id, int body1_id, int body2_id, const
                                        const Eigen::Vector3d& (*distance)(double t))
     : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point), distance(distance) {}
 
+std::shared_ptr<Constraint> DistanceConstraint::clone() const {
+    return std::make_shared<DistanceConstraint>(*this);
+}
+
 Eigen::VectorXd DistanceConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
     auto e1 = get_body_rotation(q, body1_id, body_ids);
@@ -80,6 +85,10 @@ double DistanceConstraint::equations_number()
 FixedParameterConstraint::FixedParameterConstraint(int id, int body_id, int parameter_index)
     : Constraint(id, body_id, 0), parameter_index(parameter_index) {}
 
+std::shared_ptr<Constraint> FixedParameterConstraint::clone() const {
+    return std::make_shared<FixedParameterConstraint>(*this);
+}
+
 Eigen::VectorXd FixedParameterConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
     Eigen::VectorXd functions(1);
@@ -103,6 +112,10 @@ double FixedParameterConstraint::equations_number()
 FixedOrientationConstraint::FixedOrientationConstraint(int id, int body_id, const Eigen::Vector3d& orientation)
     : Constraint(id, body_id, 0), orientation(orientation) {}
 
+std::shared_ptr<Constraint> FixedOrientationConstraint::clone() const {
+    return std::make_shared<FixedOrientationConstraint>(*this);
+}
+
 Eigen::VectorXd FixedOrientationConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
     Eigen::VectorXd functions(3);
@@ -119,6 +132,10 @@ double FixedOrientationConstraint::equations_number()
 // FixedPositionConstraint
 FixedPositionConstraint::FixedPositionConstraint(int id, int body_id, const Eigen::Vector3d& position)
     : Constraint(id, body_id, 0), position(position) {}
+
+std::shared_ptr<Constraint> FixedPositionConstraint::clone() const {
+    return std::make_shared<FixedPositionConstraint>(*this);
+}
 
 Eigen::VectorXd FixedPositionConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
@@ -137,6 +154,10 @@ double FixedPositionConstraint::equations_number()
 BallJointConstraint::BallJointConstraint(int id, int body1_id, int body2_id, const Eigen::Vector3d& body1_point, 
                                          const Eigen::Vector3d& body2_point)
     : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point) {}
+
+std::shared_ptr<Constraint> BallJointConstraint::clone() const {
+    return std::make_shared<BallJointConstraint>(*this);
+}
 
 Eigen::VectorXd BallJointConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {

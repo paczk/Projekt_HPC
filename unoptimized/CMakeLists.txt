@@ -8,11 +8,21 @@ find_package(Eigen3 REQUIRED NO_MODULE)
 
 set(SOURCES
     src/bodies.cpp
+    src/constraints.cpp
+    src/multibody_solver.cpp
+    src/multibody_system.cpp
+    src/quaternion_operations.cpp
 )
 
 add_executable(bodies_test src/bodies_test.cpp ${SOURCES})
+add_executable(tests src/tests.cpp ${SOURCES})
 
 target_include_directories(bodies_test PRIVATE
+    ${PROJECT_SOURCE_DIR}/include
+    Eigen3::Eigen
+)
+
+target_include_directories(tests PRIVATE
     ${PROJECT_SOURCE_DIR}/include
     Eigen3::Eigen
 )

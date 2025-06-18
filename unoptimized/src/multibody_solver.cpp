@@ -34,8 +34,8 @@ Eigen::MatrixXd multibody_jacobian(MultibodySystem mbs, State state)
 bool bicgstab_solver(const Eigen::MatrixXd& A,
                      const Eigen::VectorXd& b,
                      Eigen::VectorXd& x,
-                     int max_iter = 1000,
-                     double tol = 1e-8)
+                     int max_iter,
+                     double tol)
 {
     const int n = A.rows();
     Eigen::VectorXd r = b - A * x;
@@ -144,4 +144,6 @@ std::vector<State> multibody_solver(MultibodySystem mbs, double end_time)
     {
         states.push_back(newton_solver(mbs,state));
     }
+
+    return states;
 }

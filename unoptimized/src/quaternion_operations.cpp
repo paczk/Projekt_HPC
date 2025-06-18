@@ -45,9 +45,7 @@ Eigen::MatrixXd E(Eigen::Map<const Eigen::VectorXd> e)
     return L;
 }
 
-Eigen::Matrix3d R(Eigen::Map<const Eigen::VectorXd> e)
-{
-    Eigen::Matrix3d R;
-
-    R = L(e).transpose() * R(e);
+Eigen::Matrix3d R(Eigen::Map<const Eigen::VectorXd> q) {
+    Eigen::Quaterniond quat(q[0], q[1], q[2], q[3]); // assuming q = [x, y, z, w]
+    return quat.toRotationMatrix();
 }

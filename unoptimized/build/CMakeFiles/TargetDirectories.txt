@@ -1,3 +1,4 @@
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles/bodies_test.dir
+/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles/tests.dir
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles/edit_cache.dir
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles/rebuild_cache.dir

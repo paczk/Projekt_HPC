@@ -97,19 +97,83 @@ CMakeFiles/bodies_test.dir/src/bodies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bodies_test.dir/src/bodies.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/bodies.cpp -o CMakeFiles/bodies_test.dir/src/bodies.cpp.s
 
+CMakeFiles/bodies_test.dir/src/constraints.cpp.o: CMakeFiles/bodies_test.dir/flags.make
+CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/constraints.cpp
+CMakeFiles/bodies_test.dir/src/constraints.cpp.o: CMakeFiles/bodies_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bodies_test.dir/src/constraints.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bodies_test.dir/src/constraints.cpp.o -MF CMakeFiles/bodies_test.dir/src/constraints.cpp.o.d -o CMakeFiles/bodies_test.dir/src/constraints.cpp.o -c /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/constraints.cpp
+
+CMakeFiles/bodies_test.dir/src/constraints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bodies_test.dir/src/constraints.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/constraints.cpp > CMakeFiles/bodies_test.dir/src/constraints.cpp.i
+
+CMakeFiles/bodies_test.dir/src/constraints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bodies_test.dir/src/constraints.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/constraints.cpp -o CMakeFiles/bodies_test.dir/src/constraints.cpp.s
+
+CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o: CMakeFiles/bodies_test.dir/flags.make
+CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o: /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_solver.cpp
+CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o: CMakeFiles/bodies_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o -MF CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o.d -o CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o -c /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_solver.cpp
+
+CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_solver.cpp > CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.i
+
+CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_solver.cpp -o CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.s
+
+CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o: CMakeFiles/bodies_test.dir/flags.make
+CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o: /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_system.cpp
+CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o: CMakeFiles/bodies_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o -MF CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o.d -o CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o -c /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_system.cpp
+
+CMakeFiles/bodies_test.dir/src/multibody_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bodies_test.dir/src/multibody_system.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_system.cpp > CMakeFiles/bodies_test.dir/src/multibody_system.cpp.i
+
+CMakeFiles/bodies_test.dir/src/multibody_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bodies_test.dir/src/multibody_system.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_system.cpp -o CMakeFiles/bodies_test.dir/src/multibody_system.cpp.s
+
+CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: CMakeFiles/bodies_test.dir/flags.make
+CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/quaternion_operations.cpp
+CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: CMakeFiles/bodies_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o -MF CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o.d -o CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o -c /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/quaternion_operations.cpp
+
+CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/quaternion_operations.cpp > CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.i
+
+CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/quaternion_operations.cpp -o CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.s
+
 # Object files for target bodies_test
 bodies_test_OBJECTS = \
 "CMakeFiles/bodies_test.dir/src/bodies_test.cpp.o" \
-"CMakeFiles/bodies_test.dir/src/bodies.cpp.o"
+"CMakeFiles/bodies_test.dir/src/bodies.cpp.o" \
+"CMakeFiles/bodies_test.dir/src/constraints.cpp.o" \
+"CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o" \
+"CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o" \
+"CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o"
 
 # External object files for target bodies_test
 bodies_test_EXTERNAL_OBJECTS =
 
 bodies_test: CMakeFiles/bodies_test.dir/src/bodies_test.cpp.o
 bodies_test: CMakeFiles/bodies_test.dir/src/bodies.cpp.o
+bodies_test: CMakeFiles/bodies_test.dir/src/constraints.cpp.o
+bodies_test: CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o
+bodies_test: CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o
+bodies_test: CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o
 bodies_test: CMakeFiles/bodies_test.dir/build.make
 bodies_test: CMakeFiles/bodies_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bodies_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bodies_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bodies_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

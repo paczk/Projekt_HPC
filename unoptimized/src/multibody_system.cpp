@@ -1,82 +1,68 @@
-#include <vector>
-#include "bodies.hpp"
-#include "constraints.hpp"
 #include "multibody_system.hpp"
+#include <algorithm>
 #include <memory>
 
-class MultibodySystem
+MultibodySystem::MultibodySystem() = default;
+
+void MultibodySystem::addBody(const Body& body)
 {
-    public:
-        MultibodySystem() = default;
+    bodies.push_back(body);
+    body_ids.push_back(body.getId());
+}
 
-        void addBody(Body& body) 
-        {
-            bodies.push_back(body);
-            body_ids.push_back(body.getId());
-        }
+void MultibodySystem::addConstraint(const Constraint& constraint) {
+    constraints.push_back(constraint.clone());
+}
 
-        void addConstraint(const Constraint& constraint) 
-        {
-            constraints.push_back(constraint);
-        }
-
-        int getNumBodies()
-        {
-            return bodies.size();
-        }
-
-        int getNumConstraints() 
-        {
-            int total_constraints = 0;
-            for(auto& constraint : constraints)
-            {
-                total_constraints += constraint->equations_number();
-            }
-            return total_constraints;
-        }
-
-        const std::vector<Body>& getBodies() const 
-        {
-            return bodies;
-        }
-
-        const std::vector<int>& getBodyIds() const 
-        {
-            return body_ids;
-        }
-
-        const std::vector<std::shared_ptr<Constraint>>& getConstraints() const 
-        {
-            return constraints;
-        }
-
-        const Eigen::VectorXd& getBodyParameters(int id)
-        {
-            auto it = std::find(body_ids.begin(), body_ids.end(), id);
-            int i = std::distance(body_ids.begin(), it);
-            return bodies[i].getPosition();
-        }
-    
-    private:
-        std::vector<Body> bodies;
-        std::vector<int> body_ids;
-        std::vector<std::shared_ptr<Constraint>> constraints;
-};
-
-class State
+int MultibodySystem::getNumBodies() const
 {
-    public:
-        State(const Eigen::VectorXd& q, double t) : q(q), t(t) {}
+    return static_cast<int>(bodies.size());
+}
 
-        const Eigen::VectorXd& getQ() const {
-            return q;
-        }
+int MultibodySystem::getNumConstraints() const
+{
+    int total_constraints = 0;
+    for (const auto& constraint : constraints)
+    {
+        total_constraints += constraint->equations_number();
+    }
+    return total_constraints;
+}
 
-        double getTime() const {
-            return t;
-        }
-        
-    private:
-        Eigen::VectorXd q; // positions and orientations of bodies
-        double t; // time
-};
+const std::vector<Body>& MultibodySystem::getBodies() const
+{
+    return bodies;
+}
+
+const std::vector<int>& MultibodySystem::getBodyIds() const
+{
+    return body_ids;
+}
+
+const std::vector<std::shared_ptr<Constraint>>& MultibodySystem::getConstraints() const
+{
+    return constraints;
+}
+
+const Eigen::VectorXd& MultibodySystem::getBodyParameters(int id) const
+{
+    auto it = std::find(body_ids.begin(), body_ids.end(), id);
+    if (it == body_ids.end())
+        throw std::runtime_error("Body ID not found");
+    int i = static_cast<int>(std::distance(body_ids.begin(), it));
+    return bodies[i].getPosition();
+}
+
+// State implementation
+
+State::State(const Eigen::VectorXd& q, double t) : q(q), t(t) {}
+
+const Eigen::VectorXd& State::getQ() const
+{
+    return q;
+}
+
+double State::getTime() const
+{
+    return t;
+}

@@ -129,12 +129,26 @@ bodies_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/build
 .PHONY : bodies_test/fast
 
+#=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
 src/bodies.o: src/bodies.cpp.o
 .PHONY : src/bodies.o
 
 # target to build an object file
 src/bodies.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.o
 .PHONY : src/bodies.cpp.o
 
 src/bodies.i: src/bodies.cpp.i
@@ -143,6 +157,7 @@ src/bodies.i: src/bodies.cpp.i
 # target to preprocess a source file
 src/bodies.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.i
 .PHONY : src/bodies.cpp.i
 
 src/bodies.s: src/bodies.cpp.s
@@ -151,6 +166,7 @@ src/bodies.s: src/bodies.cpp.s
 # target to generate assembly for a file
 src/bodies.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.s
 .PHONY : src/bodies.cpp.s
 
 src/bodies_test.o: src/bodies_test.cpp.o
@@ -177,6 +193,138 @@ src/bodies_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies_test.cpp.s
 .PHONY : src/bodies_test.cpp.s
 
+src/constraints.o: src/constraints.cpp.o
+.PHONY : src/constraints.o
+
+# target to build an object file
+src/constraints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.o
+.PHONY : src/constraints.cpp.o
+
+src/constraints.i: src/constraints.cpp.i
+.PHONY : src/constraints.i
+
+# target to preprocess a source file
+src/constraints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.i
+.PHONY : src/constraints.cpp.i
+
+src/constraints.s: src/constraints.cpp.s
+.PHONY : src/constraints.s
+
+# target to generate assembly for a file
+src/constraints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.s
+.PHONY : src/constraints.cpp.s
+
+src/multibody_solver.o: src/multibody_solver.cpp.o
+.PHONY : src/multibody_solver.o
+
+# target to build an object file
+src/multibody_solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.o
+.PHONY : src/multibody_solver.cpp.o
+
+src/multibody_solver.i: src/multibody_solver.cpp.i
+.PHONY : src/multibody_solver.i
+
+# target to preprocess a source file
+src/multibody_solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.i
+.PHONY : src/multibody_solver.cpp.i
+
+src/multibody_solver.s: src/multibody_solver.cpp.s
+.PHONY : src/multibody_solver.s
+
+# target to generate assembly for a file
+src/multibody_solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.s
+.PHONY : src/multibody_solver.cpp.s
+
+src/multibody_system.o: src/multibody_system.cpp.o
+.PHONY : src/multibody_system.o
+
+# target to build an object file
+src/multibody_system.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.o
+.PHONY : src/multibody_system.cpp.o
+
+src/multibody_system.i: src/multibody_system.cpp.i
+.PHONY : src/multibody_system.i
+
+# target to preprocess a source file
+src/multibody_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.i
+.PHONY : src/multibody_system.cpp.i
+
+src/multibody_system.s: src/multibody_system.cpp.s
+.PHONY : src/multibody_system.s
+
+# target to generate assembly for a file
+src/multibody_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.s
+.PHONY : src/multibody_system.cpp.s
+
+src/quaternion_operations.o: src/quaternion_operations.cpp.o
+.PHONY : src/quaternion_operations.o
+
+# target to build an object file
+src/quaternion_operations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.o
+.PHONY : src/quaternion_operations.cpp.o
+
+src/quaternion_operations.i: src/quaternion_operations.cpp.i
+.PHONY : src/quaternion_operations.i
+
+# target to preprocess a source file
+src/quaternion_operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.i
+.PHONY : src/quaternion_operations.cpp.i
+
+src/quaternion_operations.s: src/quaternion_operations.cpp.s
+.PHONY : src/quaternion_operations.s
+
+# target to generate assembly for a file
+src/quaternion_operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.s
+.PHONY : src/quaternion_operations.cpp.s
+
+src/tests.o: src/tests.cpp.o
+.PHONY : src/tests.o
+
+# target to build an object file
+src/tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/tests.cpp.o
+.PHONY : src/tests.cpp.o
+
+src/tests.i: src/tests.cpp.i
+.PHONY : src/tests.i
+
+# target to preprocess a source file
+src/tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/tests.cpp.i
+.PHONY : src/tests.cpp.i
+
+src/tests.s: src/tests.cpp.s
+.PHONY : src/tests.s
+
+# target to generate assembly for a file
+src/tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/tests.cpp.s
+.PHONY : src/tests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +334,28 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bodies_test"
+	@echo "... tests"
 	@echo "... src/bodies.o"
 	@echo "... src/bodies.i"
 	@echo "... src/bodies.s"
 	@echo "... src/bodies_test.o"
 	@echo "... src/bodies_test.i"
 	@echo "... src/bodies_test.s"
+	@echo "... src/constraints.o"
+	@echo "... src/constraints.i"
+	@echo "... src/constraints.s"
+	@echo "... src/multibody_solver.o"
+	@echo "... src/multibody_solver.i"
+	@echo "... src/multibody_solver.s"
+	@echo "... src/multibody_system.o"
+	@echo "... src/multibody_system.i"
+	@echo "... src/multibody_system.s"
+	@echo "... src/quaternion_operations.o"
+	@echo "... src/quaternion_operations.i"
+	@echo "... src/quaternion_operations.s"
+	@echo "... src/tests.o"
+	@echo "... src/tests.i"
+	@echo "... src/tests.s"
 .PHONY : help
 
 

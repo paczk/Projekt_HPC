@@ -11,9 +11,9 @@ public:
 
     void setPosition(const Eigen::VectorXd& position);
 
-    const Eigen::VectorXd& getPosition();
+    const Eigen::VectorXd& getPosition() const;
 
-    int getId();
+    int getId() const;
 
 private:
     int id;
