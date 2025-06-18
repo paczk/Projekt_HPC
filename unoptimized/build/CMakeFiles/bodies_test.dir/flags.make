@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/paczk/studia/HPC/Projekt_HPC/unoptimized/include -I/home/paczk/studia/HPC/Projekt_HPC/unoptimized/Eigen3::Eigen
+CXX_INCLUDES = -I/home/paczka/studia/hpc/Projekt_HPC/unoptimized/include -I/home/paczka/studia/hpc/Projekt_HPC/unoptimized/Eigen3::Eigen
 
 CXX_FLAGS = -std=gnu++17
 

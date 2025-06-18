@@ -1,7 +1,8 @@
 #ifndef BODIES_HPP
 #define BODIES_HPP
 
-#include <eigen3/Eigen/Dense>
+#include <cmath>
+#include <Eigen/Dense>
 
 class Body
 {

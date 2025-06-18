@@ -1,8 +1,9 @@
+#include "constraints.hpp"
 #include <eigen3/Eigen/Dense>
 #include <vector>
+#include <algorithm>
 #include "bodies.hpp"
 #include "quaternion_operations.hpp"
-#include "constraints.hpp"
 
 const Eigen::VectorXd ground {0, 0, 0, 1, 0, 0, 0};
 
@@ -34,158 +35,122 @@ Eigen::Map<const Eigen::VectorXd> get_body_rotation(const Eigen::VectorXd& q, in
     }
 }
 
-class Constraint
+// Constraint base class
+Constraint::Constraint(int id, int body1_id, int body2_id)
+    : id(id), body1_id(body1_id), body2_id(body2_id) {}
+
+Eigen::VectorXd Constraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
-    public:
-        Constraint(int id, int body1_id, int body2_id)
-            : id(id), body1_id(body1_id), body2_id(body2_id) {}
+    return Eigen::VectorXd();
+}
 
-        virtual Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids);
-
-        virtual double equations_number();
-
-    protected:
-        int id;
-        int body1_id;
-        int body2_id;    
-};
-
-class DistanceConstraint : public Constraint
+double Constraint::equations_number()
 {
-    public:
-        DistanceConstraint(int id, int body1_id, int body2_id, const Eigen::Vector3d& body1_point, 
-                           const Eigen::Vector3d& body2_point, 
-                           const Eigen::Vector3d& (*distance)(double t))
-            : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point), distance(distance) {}
-        
-        Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids) override
-        {
-            auto e1 = get_body_rotation(q, body1_id, body_ids);
-            auto e2 = get_body_rotation(q, body2_id, body_ids);
-            auto r1 = get_body_position(q, body1_id, body_ids);
-            auto r2 = get_body_position(q, body2_id, body_ids);
-            
-            Eigen::Vector3d functions;
+    return 0;
+}
 
-            Eigen::Vector3d dist;
-            dist = distance(t);
+// DistanceConstraint
+DistanceConstraint::DistanceConstraint(int id, int body1_id, int body2_id, const Eigen::Vector3d& body1_point, 
+                                       const Eigen::Vector3d& body2_point, 
+                                       const Eigen::Vector3d& (*distance)(double t))
+    : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point), distance(distance) {}
 
-            functions = r2 + R(e2) * body2_point - (r1 + R(e1) * body1_point) - dist;
-            return functions;
-        }
-
-        double equations_number() override
-        {
-            return 3;
-        }
-
-    private:
-        const Eigen::Vector3d& body1_point;
-        const Eigen::Vector3d& body2_point;
-        const Eigen::Vector3d& (*distance)(double t);
-};
-
-class FixedParameterConstraint : public Constraint
+Eigen::VectorXd DistanceConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
-    public:
-        FixedParameterConstraint(int id, int body_id, int parameter_index)
-            : Constraint(id, body_id, 0), parameter_index(parameter_index) {}
+    auto e1 = get_body_rotation(q, body1_id, body_ids);
+    auto e2 = get_body_rotation(q, body2_id, body_ids);
+    auto r1 = get_body_position(q, body1_id, body_ids);
+    auto r2 = get_body_position(q, body2_id, body_ids);
 
-        Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids) override
-        {
-            Eigen::VectorXd functions(1);
-            auto e = get_body_rotation(q, body1_id, body_ids);
-            auto r = get_body_position(q, body1_id, body_ids);
+    Eigen::Vector3d functions;
 
-            if (parameter_index < 3) {
-                functions(0) = r(parameter_index);
-            } else {
-                functions(0) = e(parameter_index - 3);
-            }
-            return functions;
-        }
+    Eigen::Vector3d dist;
+    dist = distance(t);
 
-        double equations_number() override
-        {
-            return 1;
-        }
+    functions = r2 + R(e2) * body2_point - (r1 + R(e1) * body1_point) - dist;
+    return functions;
+}
 
-    private:
-        int parameter_index;
-
-};
-
-class FixedOrientationConstraint : public Constraint
+double DistanceConstraint::equations_number()
 {
-    public:
-        FixedOrientationConstraint(int id, int body_id, const Eigen::Vector3d& orientation)
-            : Constraint(id, body_id, 0), orientation(orientation) {}
+    return 3;
+}
 
-        Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids) override
-        {
-            Eigen::VectorXd functions(3);
-            auto e = get_body_rotation(q, body1_id, body_ids);
-            functions = R(e).transpose() * orientation;
-            return functions;
-        }
+// FixedParameterConstraint
+FixedParameterConstraint::FixedParameterConstraint(int id, int body_id, int parameter_index)
+    : Constraint(id, body_id, 0), parameter_index(parameter_index) {}
 
-        double equations_number() override
-        {
-            return 4;
-        }
-
-    private:
-        const Eigen::Vector3d& orientation;
-};
-
-class FixedPositionConstraint : public Constraint
+Eigen::VectorXd FixedParameterConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
 {
-    public:
-        FixedPositionConstraint(int id, int body_id, const Eigen::Vector3d& position)
-            : Constraint(id, body_id, 0), position(position) {}
+    Eigen::VectorXd functions(1);
+    auto e = get_body_rotation(q, body1_id, body_ids);
+    auto r = get_body_position(q, body1_id, body_ids);
 
-        Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids) override
-        {
-            Eigen::VectorXd functions(3);
-            auto r = get_body_position(q, body1_id, body_ids);
-            functions = r - position;
-            return functions;
-        }
+    if (parameter_index < 3) {
+        functions(0) = r(parameter_index);
+    } else {
+        functions(0) = e(parameter_index - 3);
+    }
+    return functions;
+}
 
-        double equations_number() override
-        {
-            return 3;
-        }
-
-    private:
-        const Eigen::Vector3d& position;
-};
-
-class BallJointConstraint : public Constraint
+double FixedParameterConstraint::equations_number()
 {
-    public:
-        BallJointConstraint(int id, int body1_id, int body2_id, const Eigen::Vector3d& body1_point, 
-                            const Eigen::Vector3d& body2_point)
-            : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point) {}
+    return 1;
+}
 
-        Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids) override
-        {
-            auto e1 = get_body_rotation(q, body1_id, body_ids);
-            auto e2 = get_body_rotation(q, body2_id, body_ids);
-            auto r1 = get_body_position(q, body1_id, body_ids);
-            auto r2 = get_body_position(q, body2_id, body_ids);
+// FixedOrientationConstraint
+FixedOrientationConstraint::FixedOrientationConstraint(int id, int body_id, const Eigen::Vector3d& orientation)
+    : Constraint(id, body_id, 0), orientation(orientation) {}
 
-            Eigen::VectorXd functions(3);
-            functions = (r2 + R(e2) * body2_point) - (r1 + R(e1) * body1_point);
-            return functions;
-        }
-        double equations_number() override
-        {
-            return 3;
-        }
-    private:
-        const Eigen::Vector3d& body1_point;
-        const Eigen::Vector3d& body2_point;
-};
+Eigen::VectorXd FixedOrientationConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
+{
+    Eigen::VectorXd functions(3);
+    auto e = get_body_rotation(q, body1_id, body_ids);
+    functions = R(e).transpose() * orientation;
+    return functions;
+}
 
+double FixedOrientationConstraint::equations_number()
+{
+    return 4;
+}
 
+// FixedPositionConstraint
+FixedPositionConstraint::FixedPositionConstraint(int id, int body_id, const Eigen::Vector3d& position)
+    : Constraint(id, body_id, 0), position(position) {}
+
+Eigen::VectorXd FixedPositionConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
+{
+    Eigen::VectorXd functions(3);
+    auto r = get_body_position(q, body1_id, body_ids);
+    functions = r - position;
+    return functions;
+}
+
+double FixedPositionConstraint::equations_number()
+{
+    return 3;
+}
+
+// BallJointConstraint
+BallJointConstraint::BallJointConstraint(int id, int body1_id, int body2_id, const Eigen::Vector3d& body1_point, 
+                                         const Eigen::Vector3d& body2_point)
+    : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point) {}
+
+Eigen::VectorXd BallJointConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids)
+{
+    auto e1 = get_body_rotation(q, body1_id, body_ids);
+    auto e2 = get_body_rotation(q, body2_id, body_ids);
+    auto r1 = get_body_position(q, body1_id, body_ids);
+    auto r2 = get_body_position(q, body2_id, body_ids);
+
+    Eigen::VectorXd functions(3);
+    functions = (r2 + R(e2) * body2_point) - (r1 + R(e1) * body1_point);
+    return functions;
+}
+
+double BallJointConstraint::equations_number()
+{
+    return 3;
+}

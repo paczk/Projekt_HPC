@@ -18,8 +18,8 @@ class Constraint
 public:
     Constraint(int id, int body1_id, int body2_id);
 
-    virtual Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids) = 0;
-    virtual double equations_number() = 0;
+    virtual Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<int>& body_ids);
+    virtual double equations_number();
 
 protected:
     int id;
