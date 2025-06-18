@@ -5,7 +5,7 @@
 #include<eigen3/Eigen/Dense>
 #include<iostream>
 
-#include<multibody_system.hpp>
+#include "multibody_system.hpp"
 
 Eigen::MatrixXd multibody_jacobian(MultibodySystem mbs, State state);
 

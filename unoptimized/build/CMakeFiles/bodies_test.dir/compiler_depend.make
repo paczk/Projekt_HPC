@@ -932,10 +932,13 @@ CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projek
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
+  /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
   /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/atomic_base.h \
   /usr/include/c++/13/bits/atomic_lockfree_defines.h \
@@ -981,6 +984,9 @@ CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projek
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
@@ -995,6 +1001,7 @@ CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projek
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
@@ -1003,6 +1010,7 @@ CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projek
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
@@ -1029,6 +1037,7 @@ CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projek
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
@@ -1038,10 +1047,12 @@ CMakeFiles/bodies_test.dir/src/constraints.cpp.o: /home/paczka/studia/hpc/Projek
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -2779,24 +2790,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/quaternion_operations.cpp:
 
-/usr/include/c++/13/memory:
-
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/bits/align.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/multibody_solver.hpp:
 
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_solver.cpp:
@@ -2921,6 +2914,20 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
+
+/usr/include/eigen3/Eigen/src/Core/Transpose.h:
+
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/bits/new_allocator.h:
@@ -2960,14 +2967,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/c++/13/pstl/glue_memory_defs.h:
-
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/streambuf:
 
@@ -3019,8 +3018,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
-
 /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
 /usr/include/c++/13/backward/binders.h:
@@ -3028,6 +3025,10 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /usr/include/c++/13/atomic:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
+
+/home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/bodies.hpp:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/misc/Image.h:
 
@@ -3046,8 +3047,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /usr/include/c++/13/array:
 
 /usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -3129,6 +3128,8 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
+/usr/include/c++/13/ext/concurrence.h:
+
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
 /usr/include/c++/13/pstl/pstl_config.h:
@@ -3207,6 +3208,12 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
 /usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/eigen3/Eigen/src/Core/IndexedView.h:
@@ -3227,6 +3234,8 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/c++/13/bit:
 
+/usr/include/c++/13/bits/allocated_ptr.h:
+
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/Diagonal.h:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
@@ -3244,6 +3253,8 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Core:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
@@ -3341,6 +3352,10 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/eigen3/Eigen/src/Core/Map.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/CommaInitializer.h:
 
 /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
@@ -3395,10 +3410,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Jacobi:
 
-/home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
-
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/Matrix.h:
 
 /usr/include/locale.h:
@@ -3426,6 +3437,10 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/NoAlias.h:
 
 /usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/eigen3/Eigen/src/Core/Transpositions.h:
+
+/home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
@@ -3457,10 +3472,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/eigen3/Eigen/LU:
 
-/home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
-
-/usr/include/eigen3/Eigen/src/Core/Transpositions.h:
-
 /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
@@ -3477,9 +3488,9 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 
-/home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
-
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/include/c++/13/bits/exception.h:
 
@@ -3521,6 +3532,8 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
 /usr/include/c++/13/unordered_map:
 
 /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
@@ -3559,8 +3572,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
-/usr/include/eigen3/Eigen/src/Core/Visitor.h:
-
 /usr/include/c++/13/bits/localefwd.h:
 
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
@@ -3594,10 +3605,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/eigen3/Eigen/src/Core/MapBase.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
 /usr/include/assert.h:
 
@@ -3647,10 +3654,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/c++/13/cstdint:
 
-/home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/bodies.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
-
 /usr/include/limits.h:
 
 /usr/include/c++/13/cstdlib:
@@ -3672,6 +3675,14 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
 /usr/include/c++/13/exception:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
@@ -3877,6 +3888,8 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/include/c++/13/bits/unique_ptr.h:
+
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /usr/include/c++/13/ios:
@@ -3967,6 +3980,18 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/constraints.hpp:
 
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/c++/13/bits/align.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/c++/13/memory:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/eigen3/Eigen/src/Core/Ref.h:
+
 /usr/include/eigen3/Eigen/Cholesky:
 
 /usr/include/c++/13/bits/functexcept.h:
@@ -4055,10 +4080,6 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 
 /usr/include/eigen3/Eigen/src/Core/Random.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/eigen3/Eigen/src/Core/Ref.h:
-
 /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/eigen3/Eigen/src/Core/Replicate.h:
@@ -4074,13 +4095,3 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: /home/paczka/studia/
 /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
 
 /usr/include/eigen3/Eigen/src/Core/Stride.h:
-
-/usr/include/eigen3/Eigen/src/Core/Transpose.h:
-
-/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
-
-/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:

@@ -1,0 +1,31 @@
+# Pliki CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Katalogi build (często używane lokalnie)
+build/
+out/
+bin/
+obj/
+
+# Pliki wykonywalne i binaria
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Backupy i pliki edytora
+*~
+*.swp
+*.bak
+*.tmp
+
+# Pliki IDE
+.vscode/
+.idea/
+*.user
+*.code-workspace
