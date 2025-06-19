@@ -142,6 +142,43 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+#=============================================================================
+# Target rules for targets named benchmark
+
+# Build rule for target.
+benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark
+.PHONY : benchmark
+
+# fast build rule for target.
+benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/build
+.PHONY : benchmark/fast
+
+src/benchmark.o: src/benchmark.cpp.o
+.PHONY : src/benchmark.o
+
+# target to build an object file
+src/benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/benchmark.cpp.o
+.PHONY : src/benchmark.cpp.o
+
+src/benchmark.i: src/benchmark.cpp.i
+.PHONY : src/benchmark.i
+
+# target to preprocess a source file
+src/benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/benchmark.cpp.i
+.PHONY : src/benchmark.cpp.i
+
+src/benchmark.s: src/benchmark.cpp.s
+.PHONY : src/benchmark.s
+
+# target to generate assembly for a file
+src/benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/benchmark.cpp.s
+.PHONY : src/benchmark.cpp.s
+
 src/bodies.o: src/bodies.cpp.o
 .PHONY : src/bodies.o
 
@@ -149,6 +186,7 @@ src/bodies.o: src/bodies.cpp.o
 src/bodies.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/bodies.cpp.o
 .PHONY : src/bodies.cpp.o
 
 src/bodies.i: src/bodies.cpp.i
@@ -158,6 +196,7 @@ src/bodies.i: src/bodies.cpp.i
 src/bodies.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/bodies.cpp.i
 .PHONY : src/bodies.cpp.i
 
 src/bodies.s: src/bodies.cpp.s
@@ -167,6 +206,7 @@ src/bodies.s: src/bodies.cpp.s
 src/bodies.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/bodies.cpp.s
 .PHONY : src/bodies.cpp.s
 
 src/bodies_test.o: src/bodies_test.cpp.o
@@ -200,6 +240,7 @@ src/constraints.o: src/constraints.cpp.o
 src/constraints.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/constraints.cpp.o
 .PHONY : src/constraints.cpp.o
 
 src/constraints.i: src/constraints.cpp.i
@@ -209,6 +250,7 @@ src/constraints.i: src/constraints.cpp.i
 src/constraints.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/constraints.cpp.i
 .PHONY : src/constraints.cpp.i
 
 src/constraints.s: src/constraints.cpp.s
@@ -218,6 +260,7 @@ src/constraints.s: src/constraints.cpp.s
 src/constraints.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/constraints.cpp.s
 .PHONY : src/constraints.cpp.s
 
 src/multibody_solver.o: src/multibody_solver.cpp.o
@@ -227,6 +270,7 @@ src/multibody_solver.o: src/multibody_solver.cpp.o
 src/multibody_solver.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_solver.cpp.o
 .PHONY : src/multibody_solver.cpp.o
 
 src/multibody_solver.i: src/multibody_solver.cpp.i
@@ -236,6 +280,7 @@ src/multibody_solver.i: src/multibody_solver.cpp.i
 src/multibody_solver.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_solver.cpp.i
 .PHONY : src/multibody_solver.cpp.i
 
 src/multibody_solver.s: src/multibody_solver.cpp.s
@@ -245,6 +290,7 @@ src/multibody_solver.s: src/multibody_solver.cpp.s
 src/multibody_solver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_solver.cpp.s
 .PHONY : src/multibody_solver.cpp.s
 
 src/multibody_system.o: src/multibody_system.cpp.o
@@ -254,6 +300,7 @@ src/multibody_system.o: src/multibody_system.cpp.o
 src/multibody_system.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_system.cpp.o
 .PHONY : src/multibody_system.cpp.o
 
 src/multibody_system.i: src/multibody_system.cpp.i
@@ -263,6 +310,7 @@ src/multibody_system.i: src/multibody_system.cpp.i
 src/multibody_system.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_system.cpp.i
 .PHONY : src/multibody_system.cpp.i
 
 src/multibody_system.s: src/multibody_system.cpp.s
@@ -272,6 +320,7 @@ src/multibody_system.s: src/multibody_system.cpp.s
 src/multibody_system.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_system.cpp.s
 .PHONY : src/multibody_system.cpp.s
 
 src/quaternion_operations.o: src/quaternion_operations.cpp.o
@@ -281,6 +330,7 @@ src/quaternion_operations.o: src/quaternion_operations.cpp.o
 src/quaternion_operations.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/quaternion_operations.cpp.o
 .PHONY : src/quaternion_operations.cpp.o
 
 src/quaternion_operations.i: src/quaternion_operations.cpp.i
@@ -290,6 +340,7 @@ src/quaternion_operations.i: src/quaternion_operations.cpp.i
 src/quaternion_operations.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/quaternion_operations.cpp.i
 .PHONY : src/quaternion_operations.cpp.i
 
 src/quaternion_operations.s: src/quaternion_operations.cpp.s
@@ -299,6 +350,7 @@ src/quaternion_operations.s: src/quaternion_operations.cpp.s
 src/quaternion_operations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/quaternion_operations.cpp.s
 .PHONY : src/quaternion_operations.cpp.s
 
 src/tests.o: src/tests.cpp.o
@@ -333,8 +385,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... benchmark"
 	@echo "... bodies_test"
 	@echo "... tests"
+	@echo "... src/benchmark.o"
+	@echo "... src/benchmark.i"
+	@echo "... src/benchmark.s"
 	@echo "... src/bodies.o"
 	@echo "... src/bodies.i"
 	@echo "... src/bodies.s"

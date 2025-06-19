@@ -216,7 +216,7 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //The directory containing a CMake configuration file for Eigen3.
-Eigen3_DIR:PATH=/usr/share/eigen3/cmake
+Eigen3_DIR:PATH=/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/share/eigen3/cmake
 
 //Value Computed by CMake
 UnoptimizedProject_BINARY_DIR:STATIC=/home/paczk/studia/HPC/Projekt_HPC/unoptimized/build
@@ -226,6 +226,9 @@ UnoptimizedProject_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 UnoptimizedProject_SOURCE_DIR:STATIC=/home/paczk/studia/HPC/Projekt_HPC/unoptimized
+
+//The directory containing a CMake configuration file for benchmark.
+benchmark_DIR:PATH=/home/paczk/spack/opt/spack/linux-x86_64_v4/benchmark-1.9.3-4svxrqflz4pzhadhipw7z3k7fvqbuhcs/lib/cmake/benchmark
 
 
 ########################
@@ -310,6 +313,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/paczk/studia/HPC/Projekt_HPC/unoptimized
@@ -377,6 +382,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
