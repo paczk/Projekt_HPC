@@ -37,7 +37,7 @@ class DistanceConstraint : public Constraint
 public:
     DistanceConstraint(long int id, long int body1_id, long int body2_id, const Eigen::Vector3d& body1_point,
                        const Eigen::Vector3d& body2_point,
-                       const Eigen::Vector3d (*distance)(double t));
+                       Eigen::Vector3d (*distance)(double));
 
     std::shared_ptr<Constraint> clone() const override;
 
@@ -47,7 +47,7 @@ public:
 private:
     const Eigen::Vector3d body1_point;
     const Eigen::Vector3d body2_point;
-    const Eigen::Vector3d (*distance)(double t);
+    Eigen::Vector3d (*distance)(double);
 };
 
 // Ograniczenie na konkretny parametr pozycji lub orientacji
@@ -110,6 +110,36 @@ public:
 private:
     const Eigen::Vector3d body1_point;
     const Eigen::Vector3d body2_point;
+};
+
+class RevoluteConstraint : public Constraint
+{
+public:
+    RevoluteConstraint(long int id, long int body1_id, long int body2_id, const Eigen::Vector3d& body1_point,
+                        const Eigen::Vector3d& body2_point, const Eigen::Vector3d& body1_axis,
+                        const Eigen::Vector3d& body2_axis);
+
+    std::shared_ptr<Constraint> clone() const override;
+
+    Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<long int>& body_ids) override;
+    double equations_number() override;
+
+private:
+    const Eigen::Vector3d body1_point;
+    const Eigen::Vector3d body2_point;
+    const Eigen::Vector3d body1_axis;
+    const Eigen::Vector3d body2_axis;
+};
+
+class QuaternionConstraint : public Constraint
+{
+public:
+    QuaternionConstraint(long int id, long int body1_id);
+
+    std::shared_ptr<Constraint> clone() const override;
+
+    Eigen::VectorXd ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<long int>& body_ids) override;
+    double equations_number() override;
 };
 
 #endif // CONSTRAINTS_HPP

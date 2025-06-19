@@ -54,7 +54,7 @@ double Constraint::equations_number()
 // DistanceConstraint
 DistanceConstraint::DistanceConstraint(long int id, long int body1_id, long int body2_id, const Eigen::Vector3d& body1_point, 
                                        const Eigen::Vector3d& body2_point, 
-                                       const Eigen::Vector3d (*distance)(double t))
+                                       Eigen::Vector3d (*distance)(double))
     : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point), distance(distance) {}
 
 std::shared_ptr<Constraint> DistanceConstraint::clone() const {
@@ -176,3 +176,56 @@ double BallJointConstraint::equations_number()
 {
     return 3;
 }
+
+// RevoluteConstraint
+RevoluteConstraint::RevoluteConstraint(long int id, long int body1_id, long int body2_id, const Eigen::Vector3d& body1_point, 
+                                         const Eigen::Vector3d& body2_point, const Eigen::Vector3d& body1_axis,
+                                         const Eigen::Vector3d& body2_axis)
+    : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point), body1_axis(body1_axis), body2_axis(body2_axis) {}
+
+std::shared_ptr<Constraint> RevoluteConstraint::clone() const {
+    return std::make_shared<RevoluteConstraint>(*this);
+}
+
+Eigen::VectorXd RevoluteConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<long int>& body_ids)
+{
+    auto e1 = get_body_rotation(q, body1_id, body_ids);
+    auto e2 = get_body_rotation(q, body2_id, body_ids);
+    auto r1 = get_body_position(q, body1_id, body_ids);
+    auto r2 = get_body_position(q, body2_id, body_ids);
+
+    Eigen::VectorXd functions(5);
+    Eigen::Vector3d point_functions = (r2 + R(e2) * body2_point) - (r1 + R(e1) * body1_point);
+    Eigen::Vector3d axis_functions = (R(e1) * body1_axis).cross(R(e2) * body2_axis);
+    functions.head(3) = point_functions;
+    functions.tail(2) = axis_functions.head(2);
+    return functions;
+}
+
+double RevoluteConstraint::equations_number()
+{
+    return 5;
+}
+
+// QuaternionConstraint
+QuaternionConstraint::QuaternionConstraint(long int id, long int body1_id)
+    : Constraint(id, body1_id, 0) {}
+
+std::shared_ptr<Constraint> QuaternionConstraint::clone() const {
+    return std::make_shared<QuaternionConstraint>(*this);
+}
+
+Eigen::VectorXd QuaternionConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<long int>& body_ids)
+{
+    auto e1 = get_body_rotation(q, body1_id, body_ids);
+
+    Eigen::VectorXd functions(1);
+    functions(0) = e1.norm() - 1.0;
+    return functions;
+}
+
+double QuaternionConstraint::equations_number()
+{
+    return 1;
+}
+

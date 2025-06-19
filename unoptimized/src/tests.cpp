@@ -16,7 +16,7 @@ int main()
 
     for(int i = 0; i < 2; ++i)
     {
-        Body body1(i + 1, 0.5, 0.5, 0.0, 1.0, 0.0, 0.0, 0.0);
+        Body body1{i + 1, 0.5, 0.5, 0.0, 1.0, 0.0, 0.0, 0.0};
         
         sys.addBody(body1);
     }
@@ -29,7 +29,7 @@ int main()
     for(int i = 0; i < 2; ++i)
     {
         Eigen::Vector3d p1(0.0,0.0,0.0);
-        FixedPositionConstraint constraint1(i, i+1, Eigen::Vector3d(1.0, 10.0, 1.0));
+        FixedPositionConstraint constraint1{i, i+1, Eigen::Vector3d(1.0, 10.0, 1.0)};
         FixedOrientationConstraint constraint3(i+10, i+1, Eigen::Vector4d(0.0, 0.0, 1.0, 0.0));
         //BallJointConstraint constraint3(i+10,0,i+1,Eigen::Vector3d(1.0,1.0,1.0),Eigen::Vector3d(1.0,1.0,1.0));
         sys.addConstraint(constraint1);

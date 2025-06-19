@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/paczk/studia/HPC/Projekt_HPC/unoptimized/include -I/home/paczk/studia/HPC/Projekt_HPC/unoptimized/Eigen3::Eigen
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS = -march=native -mtune=native -O3 -DNDEBUG -std=gnu++17
 

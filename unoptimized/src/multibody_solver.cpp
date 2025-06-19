@@ -115,7 +115,7 @@ State newton_solver(MultibodySystem mbs, State state)
             break;
         }
 
-        if(norm > 1e10)
+        if(norm > 1e20)
         {
             std::cerr << "Newton solver diverged, norm is too high: " << norm << "\n";
             break;

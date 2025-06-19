@@ -93,6 +93,14 @@ CMakeFiles/tests.dir/src/bodies.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unopti
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/VectorBlock.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Visitor.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
@@ -382,13 +390,22 @@ CMakeFiles/tests.dir/src/bodies.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unopti
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -427,6 +444,8 @@ CMakeFiles/tests.dir/src/bodies.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unopti
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -447,15 +466,106 @@ CMakeFiles/tests.dir/src/bodies.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unopti
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
 CMakeFiles/tests.dir/src/constraints.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/constraints.cpp \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Cholesky \
@@ -706,6 +816,14 @@ CMakeFiles/tests.dir/src/constraints.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/u
   /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
   /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
@@ -855,13 +973,22 @@ CMakeFiles/tests.dir/src/constraints.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/u
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -900,6 +1027,8 @@ CMakeFiles/tests.dir/src/constraints.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/u
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -920,15 +1049,106 @@ CMakeFiles/tests.dir/src/constraints.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/u
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
 CMakeFiles/tests.dir/src/multibody_solver.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/multibody_solver.cpp \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Cholesky \
@@ -1262,6 +1482,14 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
   /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
@@ -1411,13 +1639,22 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1456,6 +1693,8 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -1476,15 +1715,106 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
 CMakeFiles/tests.dir/src/multibody_system.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/multibody_system.cpp \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Cholesky \
@@ -1578,6 +1908,14 @@ CMakeFiles/tests.dir/src/multibody_system.cpp.o: /home/paczk/studia/HPC/Projekt_
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/VectorBlock.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Visitor.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h \
+  /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
@@ -1889,13 +2227,22 @@ CMakeFiles/tests.dir/src/multibody_system.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1934,6 +2281,8 @@ CMakeFiles/tests.dir/src/multibody_system.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -1954,15 +2303,106 @@ CMakeFiles/tests.dir/src/multibody_system.cpp.o: /home/paczk/studia/HPC/Projekt_
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
 CMakeFiles/tests.dir/src/quaternion_operations.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/quaternion_operations.cpp \
   /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/quaternion_operations.hpp \
@@ -2191,6 +2631,14 @@ CMakeFiles/tests.dir/src/quaternion_operations.cpp.o: /home/paczk/studia/HPC/Pro
   /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
   /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
@@ -2340,13 +2788,22 @@ CMakeFiles/tests.dir/src/quaternion_operations.cpp.o: /home/paczk/studia/HPC/Pro
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -2385,6 +2842,8 @@ CMakeFiles/tests.dir/src/quaternion_operations.cpp.o: /home/paczk/studia/HPC/Pro
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -2405,15 +2864,106 @@ CMakeFiles/tests.dir/src/quaternion_operations.cpp.o: /home/paczk/studia/HPC/Pro
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
 CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/tests.cpp \
   /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Cholesky \
@@ -2747,6 +3297,14 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
   /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
   /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
   /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
   /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
@@ -2896,13 +3454,22 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -2941,6 +3508,8 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -2961,15 +3530,106 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
 
 /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/tests.cpp:
@@ -2986,8 +3646,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/bits/stl_multimap.h:
 
-/usr/include/c++/13/bits/stl_map.h:
-
 /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_system.hpp:
 
 /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_solver.hpp:
@@ -3001,8 +3659,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h:
 
@@ -3042,8 +3698,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/OrderingMethods/Ordering.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h:
@@ -3064,11 +3718,7 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseLU:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseCore:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/IterativeLinearSolvers:
-
-/home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/multibody_solver.cpp:
 
 /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
@@ -3083,8 +3733,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
 
 /usr/include/eigen3/Eigen/src/misc/Image.h:
-
-/usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
@@ -3122,19 +3770,13 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
-
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
-
 /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
@@ -3146,19 +3788,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/eigen3/Eigen/src/Core/util/Constants.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
-
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
-
-/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 /usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
@@ -3182,43 +3816,193 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
-/usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
-
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h:
+
 /usr/include/eigen3/Eigen/src/Core/Visitor.h:
 
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
 /usr/include/eigen3/Eigen/src/Core/Transpositions.h:
 
 /usr/include/eigen3/Eigen/src/Core/Transpose.h:
 
-/usr/include/stdio.h:
+/usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
 
-/usr/include/c++/13/bits/stl_function.h:
+/usr/include/eigen3/Eigen/src/Core/Stride.h:
+
+/usr/include/eigen3/Eigen/src/Core/StlIterators.h:
+
+/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+
+/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/Solve.h:
+
+/usr/include/eigen3/Eigen/src/Core/Select.h:
+
+/usr/include/eigen3/Eigen/src/Core/Reverse.h:
+
+/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h:
+
+/usr/include/eigen3/Eigen/src/Core/Replicate.h:
+
+/usr/include/eigen3/Eigen/src/Core/Random.h:
+
+/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
+
+/usr/include/eigen3/Eigen/src/Core/Product.h:
+
+/usr/include/eigen3/Eigen/src/Core/NumTraits.h:
+
+/usr/include/eigen3/Eigen/src/Core/NoAlias.h:
+
+/usr/include/eigen3/Eigen/src/Core/NestByValue.h:
+
+/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
+
+/usr/include/eigen3/Eigen/src/Core/Map.h:
+
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
+
+/usr/include/eigen3/Eigen/src/Core/IO.h:
+
+/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
+
+/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+
+/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
+
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
+
+/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h:
+
+/usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
+
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+
+/usr/include/eigen3/Eigen/src/Core/Array.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
+
+/usr/include/eigen3/Eigen/LU:
+
+/usr/include/eigen3/Eigen/Householder:
+
+/usr/include/eigen3/Eigen/Geometry:
+
+/usr/include/eigen3/Eigen/Dense:
+
+/usr/include/c++/13/memory:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/usr/include/eigen3/Eigen/src/Core/Swap.h:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bits/align.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/quaternion_operations.hpp:
+
+/usr/include/eigen3/Eigen/SVD:
+
+/home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/constraints.cpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /usr/include/c++/13/bits/stl_algo.h:
 
 /usr/include/c++/13/bits/sstream.tcc:
 
-/usr/include/c++/13/bits/node_handle.h:
-
 /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
-
-/usr/include/c++/13/bits/memoryfwd.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
@@ -3228,25 +4012,27 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/nmmintrin.h:
+
 /usr/include/c++/13/bits/ios_base.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
-/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
+/usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
-/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+/usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
-/usr/include/c++/13/bits/stl_iterator.h:
+/usr/include/eigen3/Eigen/Core:
 
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/c++/13/bits/functexcept.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/LU/PartialPivLU.h:
 
 /usr/include/eigen3/Eigen/src/misc/Kernel.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
@@ -3260,17 +4046,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/bits/hashtable_policy.h:
 
-/usr/include/c++/13/bits/char_traits.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
 /usr/include/c++/13/bits/std_function.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Map.h:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
@@ -3284,15 +4064,13 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/atomic:
 
-/usr/include/eigen3/Eigen/Householder:
-
-/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
-
-/usr/include/eigen3/Eigen/src/Core/DenseBase.h:
-
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
 /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/bodies.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/SolverBase.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseRedux.h:
 
@@ -3309,6 +4087,16 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SVD:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/LU/FullPivLU.h:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h:
 
 /usr/include/c++/13/streambuf:
 
@@ -3338,15 +4126,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/Transform.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
@@ -3354,9 +4138,9 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
+/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -3374,7 +4158,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/tr1/beta_function.tcc:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
@@ -3382,7 +4170,19 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
+/usr/include/eigen3/Eigen/Cholesky:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h:
+
+/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
 
@@ -3398,11 +4198,27 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/MKL_support.h:
 
-/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
-/usr/include/eigen3/Eigen/src/Core/Random.h:
+/usr/include/eigen3/Eigen/QR:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/RotationBase.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
@@ -3414,23 +4230,21 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
+/usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h:
+
 /usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/StlIterators.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
-/usr/include/c++/13/bits/stl_pair.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/eigen3/Eigen/LU:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/eigen3/Eigen/src/Core/Product.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Dot.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h:
 
@@ -3456,7 +4270,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/MathFunctions.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Jacobi:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
@@ -3464,33 +4282,25 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/13/iostream:
 
-/usr/include/eigen3/Eigen/src/Householder/Householder.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
-
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+/usr/include/asm-generic/errno.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
+/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
 
-/usr/include/eigen3/Eigen/src/Core/Array.h:
+/usr/include/c++/13/limits:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/Constants.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Fuzzy.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
@@ -3502,11 +4312,17 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
+/usr/include/eigen3/Eigen/Jacobi:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
 /usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
-/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+/usr/include/eigen3/Eigen/src/Core/MapBase.h:
+
+/usr/include/c++/13/bits/atomic_base.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
 
@@ -3514,13 +4330,13 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
 
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Eigenvalues:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Array.h:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h:
 
@@ -3530,17 +4346,9 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CommaInitializer.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
-
-/usr/include/eigen3/Eigen/Geometry:
-
-/usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
@@ -3550,17 +4358,7 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
 
-/usr/include/c++/13/bits/shared_ptr.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Transpose.h:
-
-/usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
-
-/usr/include/eigen3/Eigen/src/Core/Stride.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/13/bits/stl_heap.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Cholesky:
 
@@ -3578,10 +4376,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
 
-/usr/include/eigen3/Eigen/src/Core/NoAlias.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Householder:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Ref.h:
@@ -3596,8 +4390,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
-/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/BandMatrix.h:
@@ -3608,15 +4400,19 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Dense:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/QR:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/NumTraits.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
@@ -3626,13 +4422,13 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/bodies.cpp:
 
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/include/c++/13/bit:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -3654,21 +4450,27 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/LU/InverseImpl.h:
-
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h:
+
+/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/eigen3/Eigen/src/Core/Solve.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Core:
+
+/usr/include/c++/13/bits/unique_ptr.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/QR/HouseholderQR.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h:
 
 /usr/include/c++/13/bits/requires_hosted.h:
 
@@ -3679,6 +4481,8 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
@@ -3694,15 +4498,17 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/multibody_solver.cpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/IO.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
-
-/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
@@ -3718,9 +4524,9 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Matrix.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Assign.h:
-
 /usr/include/eigen3/Eigen/Eigenvalues:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Assign.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Reshaped.h:
 
@@ -3736,9 +4542,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/bits/ptr_traits.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/NoAlias.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
@@ -3746,13 +4554,35 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/MapBase.h:
 
-/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
-
 /usr/include/c++/13/array:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
 
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h:
+
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
+
+/usr/include/c++/13/unordered_map:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
 /usr/include/c++/13/iosfwd:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/BooleanRedux.h:
 
@@ -3768,9 +4598,19 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
+/usr/include/c++/13/bits/stl_map.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/DenseBase.h:
 
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
@@ -3782,13 +4622,33 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
+/usr/include/eigen3/Eigen/src/Householder/Householder.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h:
+
 /usr/include/c++/13/bits/istream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
 
@@ -3800,25 +4660,17 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CoreIterators.h:
 
-/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Fuzzy.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/Constants.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Swap.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Random.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/13/initializer_list:
 
@@ -3834,13 +4686,15 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/functional:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h:
 
-/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Visitor.h:
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
 
@@ -3850,31 +4704,39 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/LU/InverseImpl.h:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h:
+
 /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/NumTraits.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
 /usr/include/c++/13/bits/locale_facets.tcc:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/Dot.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
-/usr/include/c++/13/bits/align.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/RotationBase.h:
-
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
@@ -3886,21 +4748,41 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/ReturnByValue.h:
 
+/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
+/usr/include/c++/13/bits/invoke.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/misc/Kernel.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/Macros.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
 
@@ -3922,11 +4804,7 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/13/bits/vector.tcc:
-
 /usr/include/c++/13/cctype:
-
-/usr/include/eigen3/Eigen/src/Core/Select.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
@@ -3938,6 +4816,18 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/clocale:
 
+/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/include/c++/13/cmath:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseCore:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h:
+
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/Translation.h:
 
 /usr/include/c++/13/compare:
@@ -3945,8 +4835,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/eigen3/Eigen/Dense:
 
 /usr/include/c++/13/cstddef:
 
@@ -3968,17 +4856,21 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/debug/assertions.h:
 
+/usr/include/c++/13/bits/stl_list.h:
+
+/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
 /usr/include/c++/13/bits/std_abs.h:
 
 /usr/include/linux/errno.h:
 
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
-/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/c++/13/pstl/glue_memory_defs.h:
+/usr/include/c++/13/exception:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
@@ -3992,13 +4884,19 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
 
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/13/ext/type_traits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:
 
 /usr/include/c++/13/istream:
 
@@ -4012,10 +4910,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/usr/include/eigen3/Eigen/Jacobi:
-
 /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
 /usr/include/c++/13/sstream:
@@ -4026,21 +4920,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/13/stdlib.h:
-
 /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
 /usr/include/features.h:
 
 /usr/include/c++/13/string:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h:
-
-/usr/include/eigen3/Eigen/src/Core/Redux.h:
 
 /usr/include/c++/13/string_view:
 
@@ -4051,6 +4935,8 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /usr/include/c++/13/tr1/ell_integral.tcc:
 
 /usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h:
 
 /usr/include/c++/13/tr1/gamma.tcc:
 
@@ -4065,6 +4951,8 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h:
 
 /usr/include/c++/13/tr1/riemann_zeta.tcc:
 
@@ -4084,15 +4972,15 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/stdint.h:
 
-/usr/include/c++/13/bits/invoke.h:
+/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
 
-/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+/usr/include/linux/limits.h:
 
 /usr/include/pthread.h:
 
-/usr/include/eigen3/Eigen/src/Core/StlIterators.h:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h:
 
 /usr/include/sched.h:
 
@@ -4101,10 +4989,6 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 /usr/include/wctype.h:
 
 /usr/include/stdlib.h:
-
-/usr/include/eigen3/Eigen/SVD:
-
-/home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/constraints.cpp:
 
 /usr/include/string.h:
 
@@ -4116,19 +5000,19 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/wchar.h:
 
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/c++/13/unordered_map:
-
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
-
-/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/OrderingMethods/Amd.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/eigen3/Eigen/src/Core/Dot.h:
+
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h:
 
@@ -4138,11 +5022,17 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -4150,17 +5040,23 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/usr/include/eigen3/Eigen/src/Core/Assign.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseVector.h:
 
@@ -4176,21 +5072,43 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/misc/Image.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13/bits/list.tcc:
 
@@ -4202,25 +5120,23 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/QR/HouseholderQR.h:
-
-/usr/include/c++/13/bits/unique_ptr.h:
-
 /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h:
 
 /usr/include/c++/13/ios:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/eigen3/Eigen/src/Core/IO.h:
-
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -4244,9 +5160,11 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
-/usr/include/c++/13/bits/ostream.tcc:
+/usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
@@ -4286,146 +5204,124 @@ CMakeFiles/tests.dir/src/tests.cpp.o: /home/paczk/studia/HPC/Projekt_HPC/unoptim
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
-
-/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/c++/13/exception:
-
-/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/quaternion_operations.hpp:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/eigen3/Eigen/src/Core/Swap.h:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/13/iostream:
-
-/usr/include/c++/13/memory:
-
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h:
+
+/usr/include/eigen3/Eigen/src/Core/Ref.h:
 
 /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
-/usr/include/eigen3/Eigen/src/Core/Ref.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/eigen3/Eigen/Cholesky:
+/usr/include/c++/13/stdlib.h:
 
-/usr/include/c++/13/bits/functexcept.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h:
 
-/usr/include/eigen3/Eigen/Core:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
 
-/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
-/usr/include/eigen3/Eigen/QR:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/SolverBase.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/eigen3/Eigen/src/Core/Assign.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h:
 
 /usr/include/eigen3/Eigen/src/Core/Block.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/eigen3/Eigen/src/Core/NestByValue.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h:
 
-/usr/include/c++/13/cmath:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
+/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
-/usr/include/eigen3/Eigen/src/Core/Map.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
+/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
-/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h:
 
-/usr/include/c++/13/limits:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
 
-/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/Dot.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h:
 
-/usr/include/c++/13/bits/atomic_base.h:
+/usr/include/c++/13/bits/vector.tcc:
 
-/usr/include/eigen3/Eigen/src/Core/MapBase.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h:
 
-/usr/include/linux/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h:
 
-/usr/include/c++/13/bits/locale_classes.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h:
 
-/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
 
-/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/Replicate.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
-/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/eigen3/Eigen/src/Core/Reverse.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h:
 
-/usr/include/c++/13/bits/stl_list.h:
+/home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
 
-/usr/include/c++/13/debug/debug.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h:
 
-/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h:

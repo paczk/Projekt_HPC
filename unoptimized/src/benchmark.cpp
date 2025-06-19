@@ -3,6 +3,12 @@
 #include "benchmark/benchmark.h"
 #include "multibody_solver.hpp"
 
+Eigen::Vector3d distance(double t)
+                    {
+                        
+                        return Eigen::Vector3d(0.0, 0.0, cos(t));
+                    };
+
 void MultibodySolverBenchmark(benchmark::State& state)
 {
     std::random_device rd;
@@ -21,8 +27,10 @@ void MultibodySolverBenchmark(benchmark::State& state)
     {
         MultibodySystem sys;
 
-        Body platform{1, 0.0, 0.0, 1.0 * n_leg_parts, 1.0, 0.0, 0.0, 0.0};
+        Body platform{1, 0.0, 0.0, 0.5 * n_leg_parts, 1.0, 0.0, 0.0, 0.0};
         sys.addBody(platform);
+        QuaternionConstraint orientation_constraint_pl{0, 1};
+        sys.addConstraint(orientation_constraint_pl);
 
         for(long int j = 1; j <= 2; j++)
         {
@@ -45,28 +53,38 @@ void MultibodySolverBenchmark(benchmark::State& state)
                 }
                 
 
-                FixedParameterConstraint x_constant{segment_id, segment_id, 0};
-                sys.addConstraint(x_constant);
+                //FixedParameterConstraint x_constant{segment_id, segment_id, 0};
+                //sys.addConstraint(x_constant);
+
+                QuaternionConstraint orientation_constraint{segment_id + 10'000'000, segment_id};
+                sys.addConstraint(orientation_constraint);
 
                 if(k == 1)
                 {
                     Eigen::Vector3d ground_point(x,y,0.0);
                     Eigen::Vector3d body2_point(0.0, -0.5, 0.0);
-                    BallJointConstraint to_ground_constraint{segment_id + 3'000'000, 0, segment_id, ground_point, body2_point};
+                    RevoluteConstraint to_ground_constraint{segment_id + 3'000'000, 0, segment_id, ground_point, body2_point, 
+                                                           Eigen::Vector3d(1, 0, 0), Eigen::Vector3d(1, 0, 0)};
                     sys.addConstraint(to_ground_constraint);
                 }
                 else
                 {
                     Eigen::Vector3d body1_point(0.0, 0.5, 0.0);
                     Eigen::Vector3d body2_point(0.0, -0.5, 0.0);
-                    BallJointConstraint between_segments_constraint{segment_id + 3'000'000, 0, segment_id, body1_point, body2_point};
+                    RevoluteConstraint between_segments_constraint{segment_id + 3'000'000, segment_id - 1, segment_id, body1_point, body2_point, Eigen::Vector3d(1, 0, 0), Eigen::Vector3d(1, 0, 0)};
                     sys.addConstraint(between_segments_constraint);
+
+                    
+                    Eigen::Vector3d point1(0.0, -0.5, 0.0);
+                    Eigen::Vector3d point2(0.0, 0.5, 0.0);
+                    DistanceConstraint distance_constraint{segment_id + 6'000'000, segment_id - 1, segment_id, point1, point2, distance};
+                    sys.addConstraint(distance_constraint);
                 }  
             }
 
             Eigen::Vector3d end_body_point(0.0, 0.5, 0.0);
             Eigen::Vector3d platform_point(x, y, 0.0);
-            BallJointConstraint platform_constraint{j, j * 1'000'000 + n_leg_parts, 1, end_body_point, platform_point};
+            RevoluteConstraint platform_constraint{j, j * 1'000'000 + n_leg_parts, 1, end_body_point, platform_point, Eigen::Vector3d(1, 0, 0), Eigen::Vector3d(1, 0, 0)};
             sys.addConstraint(platform_constraint);
         }
 
@@ -85,6 +103,8 @@ void MultibodySolverBenchmark(benchmark::State& state)
             auto output = multibody_solver(system, 0.0);
         }
     }
+    state.SetItemsProcessed(state.iterations() * n_platforms * n_leg_parts);
+    state.SetBytesProcessed(state.iterations() * sizeof(systems));
 
     
 }
@@ -92,8 +112,8 @@ void MultibodySolverBenchmark(benchmark::State& state)
 BENCHMARK(MultibodySolverBenchmark)->Unit(benchmark::kSecond)
     ->ArgsProduct
     ({
-        {benchmark::CreateRange(2, 4, 2)},  // Number of platforms in total
-        {benchmark::CreateRange(2, 4, 2)} // Number of legs' parts
+        {benchmark::CreateRange(2, 16, 2)},  // Number of platforms in total
+        {benchmark::CreateRange(2, 2 << 5, 2)} // Number of legs' parts
     });
 
 
