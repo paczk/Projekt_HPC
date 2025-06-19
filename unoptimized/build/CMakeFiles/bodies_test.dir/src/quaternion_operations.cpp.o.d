@@ -1,5 +1,5 @@
 CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/quaternion_operations.cpp \
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/quaternion_operations.cpp \
  /usr/include/stdc-predef.h /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -401,4 +401,4 @@ CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/quaternion_operations.hpp
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/quaternion_operations.hpp

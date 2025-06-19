@@ -1,5 +1,5 @@
 CMakeFiles/tests.dir/src/multibody_solver.cpp.o: \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/src/multibody_solver.cpp \
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/src/multibody_solver.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -403,17 +403,17 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /usr/include/c++/13/iostream \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/multibody_system.hpp \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/bodies.hpp \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Dense \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Core \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/LU \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Cholesky \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/QR \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/SVD \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Geometry \
- /home/paczka/spack/opt/spack/linux-ubuntu24.04-icelake/gcc-13.3.0/eigen-3.4.0-wdvc5ff4kfquj7vy4qpaii27xpv46sbq/include/eigen3/Eigen/Eigenvalues \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/constraints.hpp \
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_system.hpp \
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/bodies.hpp \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Dense \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Core \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/LU \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Cholesky \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/QR \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SVD \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Geometry \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Eigenvalues \
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/constraints.hpp \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -424,5 +424,5 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/multibody_solver.hpp \
- /home/paczka/studia/hpc/Projekt_HPC/unoptimized/include/multibody_system.hpp
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_solver.hpp \
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_system.hpp

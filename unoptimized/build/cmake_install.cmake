@@ -1,4 +1,4 @@
-# Install script for directory: /home/paczka/studia/hpc/Projekt_HPC/unoptimized
+# Install script for directory: /home/paczk/studia/HPC/Projekt_HPC/unoptimized
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/paczka/studia/hpc/Projekt_HPC/unoptimized/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/paczk/studia/HPC/Projekt_HPC/unoptimized/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
