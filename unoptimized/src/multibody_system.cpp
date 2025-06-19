@@ -34,7 +34,7 @@ const std::vector<Body>& MultibodySystem::getBodies() const
     return bodies;
 }
 
-const std::vector<int>& MultibodySystem::getBodyIds() const
+const std::vector<long int>& MultibodySystem::getBodyIds() const
 {
     return body_ids;
 }
@@ -44,7 +44,7 @@ const std::vector<std::shared_ptr<Constraint>>& MultibodySystem::getConstraints(
     return constraints;
 }
 
-const Eigen::VectorXd& MultibodySystem::getBodyParameters(int id) const
+const Eigen::VectorXd& MultibodySystem::getBodyParameters(long int id) const
 {
     auto it = std::find(body_ids.begin(), body_ids.end(), id);
     if (it == body_ids.end())

@@ -20,14 +20,14 @@ class MultibodySystem
         int getNumConstraints() const;
 
         const std::vector<Body>& getBodies() const;
-        const std::vector<int>& getBodyIds() const;
+        const std::vector<long int>& getBodyIds() const;
         const std::vector<std::shared_ptr<Constraint>>& getConstraints() const;
 
-        const Eigen::VectorXd& getBodyParameters(int id) const;
+        const Eigen::VectorXd& getBodyParameters(long int id) const;
     
     private:
         std::vector<Body> bodies;
-        std::vector<int> body_ids;
+        std::vector<long int> body_ids;
         std::vector<std::shared_ptr<Constraint>> constraints;
 };
 

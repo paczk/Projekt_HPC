@@ -12,7 +12,7 @@ Eigen::MatrixXd multibody_jacobian(MultibodySystem mbs, State state)
     J.setZero();
     auto q = state.getQ();
     auto t = state.getTime();
-    std::vector<int> body_ids = mbs.getBodyIds();
+    std::vector<long int> body_ids = mbs.getBodyIds();
     auto constraints = mbs.getConstraints();
 
     for(int i = 0; i < q.size(); i++)
@@ -92,7 +92,7 @@ State newton_solver(MultibodySystem mbs, State state)
     b.setZero();
     auto q = state.getQ();
     auto t = state.getTime();
-    std::vector<int> body_ids = mbs.getBodyIds();
+    std::vector<long int> body_ids = mbs.getBodyIds();
     auto constraints = mbs.getConstraints();
     auto new_q = q;
     double norm;

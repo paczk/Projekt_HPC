@@ -7,16 +7,16 @@
 class Body
 {
 public:
-    Body(int id, double x, double y, double z, double e0, double e1, double e2, double e3);
+    Body(long int id, double x, double y, double z, double e0, double e1, double e2, double e3);
 
     void setPosition(const Eigen::VectorXd& position);
 
     const Eigen::VectorXd& getPosition() const;
 
-    int getId() const;
+    long int getId() const;
 
 private:
-    int id;
+    long int id;
     Eigen::VectorXd q;
 };
 

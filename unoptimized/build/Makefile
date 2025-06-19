@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bodies_test
-
-# Build rule for target.
-bodies_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bodies_test
-.PHONY : bodies_test
-
-# fast build rule for target.
-bodies_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/build
-.PHONY : bodies_test/fast
-
-#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -184,7 +171,6 @@ src/bodies.o: src/bodies.cpp.o
 
 # target to build an object file
 src/bodies.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/bodies.cpp.o
 .PHONY : src/bodies.cpp.o
@@ -194,7 +180,6 @@ src/bodies.i: src/bodies.cpp.i
 
 # target to preprocess a source file
 src/bodies.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/bodies.cpp.i
 .PHONY : src/bodies.cpp.i
@@ -204,41 +189,15 @@ src/bodies.s: src/bodies.cpp.s
 
 # target to generate assembly for a file
 src/bodies.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/bodies.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/bodies.cpp.s
 .PHONY : src/bodies.cpp.s
-
-src/bodies_test.o: src/bodies_test.cpp.o
-.PHONY : src/bodies_test.o
-
-# target to build an object file
-src/bodies_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies_test.cpp.o
-.PHONY : src/bodies_test.cpp.o
-
-src/bodies_test.i: src/bodies_test.cpp.i
-.PHONY : src/bodies_test.i
-
-# target to preprocess a source file
-src/bodies_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies_test.cpp.i
-.PHONY : src/bodies_test.cpp.i
-
-src/bodies_test.s: src/bodies_test.cpp.s
-.PHONY : src/bodies_test.s
-
-# target to generate assembly for a file
-src/bodies_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/bodies_test.cpp.s
-.PHONY : src/bodies_test.cpp.s
 
 src/constraints.o: src/constraints.cpp.o
 .PHONY : src/constraints.o
 
 # target to build an object file
 src/constraints.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/constraints.cpp.o
 .PHONY : src/constraints.cpp.o
@@ -248,7 +207,6 @@ src/constraints.i: src/constraints.cpp.i
 
 # target to preprocess a source file
 src/constraints.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/constraints.cpp.i
 .PHONY : src/constraints.cpp.i
@@ -258,7 +216,6 @@ src/constraints.s: src/constraints.cpp.s
 
 # target to generate assembly for a file
 src/constraints.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/constraints.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/constraints.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/constraints.cpp.s
 .PHONY : src/constraints.cpp.s
@@ -268,7 +225,6 @@ src/multibody_solver.o: src/multibody_solver.cpp.o
 
 # target to build an object file
 src/multibody_solver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_solver.cpp.o
 .PHONY : src/multibody_solver.cpp.o
@@ -278,7 +234,6 @@ src/multibody_solver.i: src/multibody_solver.cpp.i
 
 # target to preprocess a source file
 src/multibody_solver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_solver.cpp.i
 .PHONY : src/multibody_solver.cpp.i
@@ -288,7 +243,6 @@ src/multibody_solver.s: src/multibody_solver.cpp.s
 
 # target to generate assembly for a file
 src/multibody_solver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_solver.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_solver.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_solver.cpp.s
 .PHONY : src/multibody_solver.cpp.s
@@ -298,7 +252,6 @@ src/multibody_system.o: src/multibody_system.cpp.o
 
 # target to build an object file
 src/multibody_system.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_system.cpp.o
 .PHONY : src/multibody_system.cpp.o
@@ -308,7 +261,6 @@ src/multibody_system.i: src/multibody_system.cpp.i
 
 # target to preprocess a source file
 src/multibody_system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_system.cpp.i
 .PHONY : src/multibody_system.cpp.i
@@ -318,7 +270,6 @@ src/multibody_system.s: src/multibody_system.cpp.s
 
 # target to generate assembly for a file
 src/multibody_system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/multibody_system.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/multibody_system.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/multibody_system.cpp.s
 .PHONY : src/multibody_system.cpp.s
@@ -328,7 +279,6 @@ src/quaternion_operations.o: src/quaternion_operations.cpp.o
 
 # target to build an object file
 src/quaternion_operations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/quaternion_operations.cpp.o
 .PHONY : src/quaternion_operations.cpp.o
@@ -338,7 +288,6 @@ src/quaternion_operations.i: src/quaternion_operations.cpp.i
 
 # target to preprocess a source file
 src/quaternion_operations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/quaternion_operations.cpp.i
 .PHONY : src/quaternion_operations.cpp.i
@@ -348,7 +297,6 @@ src/quaternion_operations.s: src/quaternion_operations.cpp.s
 
 # target to generate assembly for a file
 src/quaternion_operations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bodies_test.dir/build.make CMakeFiles/bodies_test.dir/src/quaternion_operations.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/quaternion_operations.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/src/quaternion_operations.cpp.s
 .PHONY : src/quaternion_operations.cpp.s
@@ -386,7 +334,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... benchmark"
-	@echo "... bodies_test"
 	@echo "... tests"
 	@echo "... src/benchmark.o"
 	@echo "... src/benchmark.i"
@@ -394,9 +341,6 @@ help:
 	@echo "... src/bodies.o"
 	@echo "... src/bodies.i"
 	@echo "... src/bodies.s"
-	@echo "... src/bodies_test.o"
-	@echo "... src/bodies_test.i"
-	@echo "... src/bodies_test.s"
 	@echo "... src/constraints.o"
 	@echo "... src/constraints.i"
 	@echo "... src/constraints.s"

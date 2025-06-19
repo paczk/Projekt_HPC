@@ -14,14 +14,11 @@ set(SOURCES
     src/quaternion_operations.cpp
 )
 
-add_executable(bodies_test src/bodies_test.cpp ${SOURCES})
+
 add_executable(tests src/tests.cpp ${SOURCES})
 add_executable(benchmark src/benchmark.cpp ${SOURCES})
 
-target_include_directories(bodies_test PRIVATE
-    ${PROJECT_SOURCE_DIR}/include
-    Eigen3::Eigen
-)
+
 
 target_include_directories(tests PRIVATE
     ${PROJECT_SOURCE_DIR}/include
