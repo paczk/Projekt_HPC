@@ -4,29 +4,48 @@
 
 #include<multibody_system.hpp>
 #include<multibody_solver.hpp>
+#include <Eigen/Sparse>
+using SparseMatrix = Eigen::SparseMatrix<double>;
+using Triplet = Eigen::Triplet<double>;
 
-Eigen::MatrixXd multibody_jacobian(MultibodySystem mbs, State state)
+SparseMatrix multibody_jacobian(MultibodySystem mbs, State state)
 {
-    auto constraints_number = mbs.getNumConstraints();
-    Eigen::MatrixXd J(constraints_number, mbs.getNumBodies() * 7);
-    J.setZero();
-    Eigen::VectorXd q = state.getQ();
-    auto t = state.getTime();
-    std::vector<long int> body_ids = mbs.getBodyIds();
-    auto constraints = mbs.getConstraints();
+    const int constraints_number = mbs.getNumConstraints();
+    const int cols = mbs.getNumBodies() * 7;
 
-    for(int i = 0; i < q.size(); i++)
+    std::vector<Triplet> triplets;
+
+    const Eigen::VectorXd q = state.getQ();
+    const double t = state.getTime();
+    const std::vector<long int> body_ids = mbs.getBodyIds();
+    const auto& constraints = mbs.getConstraints();
+
+    for (int i = 0; i < q.size(); ++i)
     {
-        Eigen::MatrixXd q_h = q;
-        q_h(i) += 1;
+        Eigen::VectorXd q_h = q;
+        q_h(i) += 1e-4;
+
         int constraint_index = 0;
-        for(auto& constraint : constraints)
+        for (const auto& constraint : constraints)
         {
-            Eigen::VectorXd partial_jacobi = (constraint->ConstrainingFunctions(q_h, t, body_ids) - constraint->ConstrainingFunctions(q, t, body_ids))/ 1.0;
-            J.col(i).segment(constraint_index, constraint->equations_number()) = partial_jacobi;
-            constraint_index += constraint->equations_number();
+            Eigen::VectorXd diff =
+                constraint->ConstrainingFunctions(q_h, t, body_ids)
+              - constraint->ConstrainingFunctions(q,   t, body_ids);
+
+            Eigen::VectorXd partial_jacobi = diff / 1e-4;
+            int eq_num = constraint->equations_number();
+
+            for (int row = 0; row < eq_num; ++row)
+            {
+                triplets.emplace_back(constraint_index + row, i, partial_jacobi(row));
+            }
+
+            constraint_index += eq_num;
         }
     }
+
+    SparseMatrix J(constraints_number, cols);
+    J.setFromTriplets(triplets.begin(), triplets.end());
 
     return J;
 }
@@ -44,42 +63,64 @@ State newton_solver(MultibodySystem mbs, State state)
     auto constraints = mbs.getConstraints();
     auto new_q = q;
     //std::cout<< new_q.transpose() << "\n";
-    double norm = 1;
+    double norm;
     int iter = 0;
-    do {
-        int i = 0;
-        for(auto& con : constraints)
-        {
-            b.segment(i, con->equations_number()) = -con->ConstrainingFunctions(new_q, t, body_ids);
-            
-            i += con->equations_number();
-        }
+    int i = 0;
+    for(auto& con : constraints)
+    {
+        b.segment(i, con->equations_number()) = -con->ConstrainingFunctions(new_q, t, body_ids);
+        i += con->equations_number();
+    }
+
+    norm = b.dot(b);
+
+    while(norm > 1e-12)
+    {
         //std::cout << b.transpose() << "\n";
-        Eigen::MatrixXd J = multibody_jacobian(mbs, state);   
-        
+        Eigen::SparseMatrix<double> J = multibody_jacobian(mbs, state);   
+        //std::cout << "calculated Jacobian\n";
 
-        std::cout << "calculated Jacobian\n";
-        
-        Eigen::VectorXd delta_q = J.householderQr().solve(b);
+        Eigen::SparseQR<Eigen::SparseMatrix<double>, Eigen::COLAMDOrdering<int>> solver;
+        solver.compute(J);
 
-        std::cout << delta_q.transpose() << "\n";
+        if (solver.info() != Eigen::Success) {
+            std::cerr << "Decomposition failed!\n";
+        }
+
+        Eigen::VectorXd delta_q = solver.solve(b);
+
+        if (solver.info() != Eigen::Success) {
+            std::cerr << "Solving failed!\n";
+        }
         
-        std::cout << "Solved linear problem\n";
+        //std::cout << "Solved linear problem\n";
         
         new_q += delta_q;
 
         i = 0;
         for(auto& con : constraints)
         {
-            //b.segment(i, con->equations_number()) = -con->ConstrainingFunctions(new_q, t, body_ids);
+            b.segment(i, con->equations_number()) = -con->ConstrainingFunctions(new_q, t, body_ids);
             i += con->equations_number();
         }
 
         norm = b.dot(b);
         iter++;
-        std::cout << norm << ". newton iteration done\n";
+        //std::cout << iter << ". newton iteration done\n";
+        //std::cout << "Norm: " << norm << "\n";
         
-    } while(norm > 1e-12);
+        if(iter > 1000)
+        {
+            std::cerr << "Newton solver did not converge after 1000 iterations.\n";
+            break;
+        }
+
+        if(norm > 1e10)
+        {
+            std::cerr << "Newton solver diverged, norm is too high: " << norm << "\n";
+            break;
+        }
+    }
     
     return State{new_q, t};
 }

@@ -6,8 +6,11 @@
 #include<iostream>
 
 #include "multibody_system.hpp"
+#include <Eigen/Sparse>
+using SparseMatrix = Eigen::SparseMatrix<double>;
+using Triplet = Eigen::Triplet<double>;
 
-Eigen::MatrixXd multibody_jacobian(MultibodySystem mbs, State state);
+SparseMatrix multibody_jacobian(MultibodySystem mbs, State state);
 
 bool bicgstab_solver(const Eigen::MatrixXd& A,
                      const Eigen::VectorXd& b,

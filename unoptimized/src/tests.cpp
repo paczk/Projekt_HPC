@@ -48,7 +48,7 @@ int main()
     auto output = multibody_solver(sys, 0.0);
     auto qq = output[0].getQ();
     // Output results
-    std::cout << "Multibody system solved successfully!" << qq(1) << std::endl;
+    std::cout << "Multibody system solved successfully!" << std::endl;
 
     return 0;
 }

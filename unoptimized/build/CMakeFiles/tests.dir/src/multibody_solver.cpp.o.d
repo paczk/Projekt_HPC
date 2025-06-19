@@ -425,4 +425,84 @@ CMakeFiles/tests.dir/src/multibody_solver.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_solver.hpp \
- /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_system.hpp
+ /home/paczk/studia/HPC/Projekt_HPC/unoptimized/include/multibody_system.hpp \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/Sparse \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseCore \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/OrderingMethods \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseCholesky \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseLU \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/SparseQR \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/IterativeLinearSolvers \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+ /home/paczk/spack/opt/spack/linux-x86_64_v4/eigen-3.4.0-2uuw3msilucvsljcx2u6y5mgnexflf6b/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+ /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
+ /usr/include/c++/13/bits/list.tcc
