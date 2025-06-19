@@ -1,6 +1,7 @@
 #include "multibody_system.hpp"
 #include <algorithm>
 #include <memory>
+#include <iostream>
 
 MultibodySystem::MultibodySystem() = default;
 

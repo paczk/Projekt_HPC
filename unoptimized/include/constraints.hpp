@@ -5,6 +5,7 @@
 #include <vector>
 #include "bodies.hpp"
 #include <memory>
+#include <iostream>
 
 // Stała pozycja/rotacja dla ciała typu ground
 extern const Eigen::Matrix<double, 7, 1> ground;
@@ -36,7 +37,7 @@ class DistanceConstraint : public Constraint
 public:
     DistanceConstraint(long int id, long int body1_id, long int body2_id, const Eigen::Vector3d& body1_point,
                        const Eigen::Vector3d& body2_point,
-                       const Eigen::Vector3d& (*distance)(double t));
+                       const Eigen::Vector3d (*distance)(double t));
 
     std::shared_ptr<Constraint> clone() const override;
 
@@ -44,9 +45,9 @@ public:
     double equations_number() override;
 
 private:
-    const Eigen::Vector3d& body1_point;
-    const Eigen::Vector3d& body2_point;
-    const Eigen::Vector3d& (*distance)(double t);
+    const Eigen::Vector3d body1_point;
+    const Eigen::Vector3d body2_point;
+    const Eigen::Vector3d (*distance)(double t);
 };
 
 // Ograniczenie na konkretny parametr pozycji lub orientacji
@@ -68,7 +69,7 @@ private:
 class FixedOrientationConstraint : public Constraint
 {
 public:
-    FixedOrientationConstraint(long int id, long int body_id, const Eigen::Vector3d& orientation);
+    FixedOrientationConstraint(long int id, long int body_id, const Eigen::Vector4d& orientation);
 
     std::shared_ptr<Constraint> clone() const override;
 
@@ -76,7 +77,7 @@ public:
     double equations_number() override;
 
 private:
-    const Eigen::Vector3d& orientation;
+    const Eigen::Vector4d orientation;
 };
 
 // Ograniczenie pozycji względem stałego punktu
@@ -91,7 +92,7 @@ public:
     double equations_number() override;
 
 private:
-    const Eigen::Vector3d& position;
+    const Eigen::Vector3d position;
 };
 
 // Ograniczenie kuliste – wspólny punkt w przestrzeni
@@ -107,8 +108,8 @@ public:
     double equations_number() override;
 
 private:
-    const Eigen::Vector3d& body1_point;
-    const Eigen::Vector3d& body2_point;
+    const Eigen::Vector3d body1_point;
+    const Eigen::Vector3d body2_point;
 };
 
 #endif // CONSTRAINTS_HPP

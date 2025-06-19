@@ -5,6 +5,7 @@
 #include "bodies.hpp"
 #include "quaternion_operations.hpp"
 #include <memory>
+#include <iostream>
 
 const Eigen::Matrix<double, 7, 1> ground {0, 0, 0, 1, 0, 0, 0};
 
@@ -26,7 +27,7 @@ Eigen::Map<const Eigen::VectorXd> get_body_rotation(const Eigen::VectorXd& q, lo
 {
     if(id == 0)
     {
-        return Eigen::Map<const Eigen::VectorXd>(ground.data(), 3);
+        return Eigen::Map<const Eigen::VectorXd>(ground.data() + 3, 4);
     }
     else
     {
@@ -53,7 +54,7 @@ double Constraint::equations_number()
 // DistanceConstraint
 DistanceConstraint::DistanceConstraint(long int id, long int body1_id, long int body2_id, const Eigen::Vector3d& body1_point, 
                                        const Eigen::Vector3d& body2_point, 
-                                       const Eigen::Vector3d& (*distance)(double t))
+                                       const Eigen::Vector3d (*distance)(double t))
     : Constraint(id, body1_id, body2_id), body1_point(body1_point), body2_point(body2_point), distance(distance) {}
 
 std::shared_ptr<Constraint> DistanceConstraint::clone() const {
@@ -109,7 +110,7 @@ double FixedParameterConstraint::equations_number()
 }
 
 // FixedOrientationConstraint
-FixedOrientationConstraint::FixedOrientationConstraint(long int id, long int body_id, const Eigen::Vector3d& orientation)
+FixedOrientationConstraint::FixedOrientationConstraint(long int id, long int body_id, const Eigen::Vector4d& orientation)
     : Constraint(id, body_id, 0), orientation(orientation) {}
 
 std::shared_ptr<Constraint> FixedOrientationConstraint::clone() const {
@@ -118,9 +119,9 @@ std::shared_ptr<Constraint> FixedOrientationConstraint::clone() const {
 
 Eigen::VectorXd FixedOrientationConstraint::ConstrainingFunctions(const Eigen::VectorXd& q, double t, const std::vector<long int>& body_ids)
 {
-    Eigen::VectorXd functions(3);
+    Eigen::VectorXd functions(4);
     auto e = get_body_rotation(q, body1_id, body_ids);
-    functions = R(e).transpose() * orientation;
+    functions = e - orientation;
     return functions;
 }
 

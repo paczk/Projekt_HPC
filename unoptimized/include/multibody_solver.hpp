@@ -17,6 +17,6 @@ bool bicgstab_solver(const Eigen::MatrixXd& A,
 
 State newton_solver(MultibodySystem mbs, State state);
 
-std::vector<State> multibody_solver(MultibodySystem mbs, double end_time);
+std::vector<State> multibody_solver(MultibodySystem& mbs, double end_time);
 
 #endif
