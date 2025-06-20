@@ -1,6 +1,7 @@
 #include<vector>
 #include<eigen3/Eigen/Dense>
 #include<iostream>
+#include <oneapi/tbb.h>
 
 #include<multibody_system.hpp>
 #include<multibody_solver.hpp>
@@ -8,7 +9,7 @@
 using SparseMatrix = Eigen::SparseMatrix<double>;
 using Triplet = Eigen::Triplet<double>;
 
-SparseMatrix multibody_jacobian(MultibodySystem mbs, State state)
+SparseMatrix multibody_jacobian(MultibodySystem mbs, State state, int block_size)
 {
     const int constraints_number = mbs.getNumConstraints();
     const int cols = mbs.getNumBodies() * 7;
@@ -20,29 +21,39 @@ SparseMatrix multibody_jacobian(MultibodySystem mbs, State state)
     const std::vector<long int> body_ids = mbs.getBodyIds();
     const auto& constraints = mbs.getConstraints();
 
-    for (int i = 0; i < q.size(); ++i)
+    std::vector<std::vector<Triplet>> local_triplets(q.size());
+
+    const auto range = oneapi::tbb::blocked_range<Eigen::Index>{0, q.size(), 14};
+
+    oneapi::tbb::parallel_for(range, [&](const auto& r)
     {
-        Eigen::VectorXd q_h = q;
-        q_h(i) += 1e-4;
-
-        int constraint_index = 0;
-        for (const auto& constraint : constraints)
+        for (Eigen::Index i = r.begin(); i != r.end(); ++i)
         {
-            Eigen::VectorXd diff =
-                constraint->ConstrainingFunctions(q_h, t, body_ids)
-              - constraint->ConstrainingFunctions(q,   t, body_ids);
+            Eigen::VectorXd q_h = q;
+            q_h(i) += 1e-4;
 
-            Eigen::VectorXd partial_jacobi = diff / 1e-4;
-            int eq_num = constraint->equations_number();
-
-            for (int row = 0; row < eq_num; ++row)
+            int constraint_index = 0;
+            for (const auto& constraint : constraints)
             {
-                triplets.emplace_back(constraint_index + row, i, partial_jacobi(row));
-            }
+                Eigen::VectorXd diff =
+                    constraint->ConstrainingFunctions(q_h, t, body_ids)
+                - constraint->ConstrainingFunctions(q,   t, body_ids);
 
-            constraint_index += eq_num;
+                Eigen::VectorXd partial_jacobi = diff / 1e-4;
+                int eq_num = constraint->equations_number();
+
+                for (int row = 0; row < eq_num; ++row)
+                {
+                    local_triplets[i].emplace_back(constraint_index + row, i, partial_jacobi(row));
+                }
+
+                constraint_index += eq_num;
+            }
         }
-    }
+    });
+
+    for (const auto& vec : local_triplets)
+    triplets.insert(triplets.end(), vec.begin(), vec.end());
 
     SparseMatrix J(constraints_number, cols);
     J.setFromTriplets(triplets.begin(), triplets.end());

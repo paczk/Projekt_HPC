@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Eigen3 REQUIRED NO_MODULE)
+find_package(TBB REQUIRED)
 
 set(SOURCES
     src/bodies.cpp
@@ -23,7 +24,10 @@ add_executable(benchmark src/benchmark.cpp ${SOURCES})
 target_include_directories(tests PRIVATE
     ${PROJECT_SOURCE_DIR}/include
     Eigen3::Eigen
+
 )
+
+target_link_libraries(tests PUBLIC TBB::tbb)
 
 target_include_directories(benchmark PRIVATE
     ${PROJECT_SOURCE_DIR}/include
@@ -31,3 +35,4 @@ target_include_directories(benchmark PRIVATE
 )
 find_package(benchmark REQUIRED)
 target_link_libraries(benchmark PUBLIC benchmark::benchmark)
+target_link_libraries(benchmark PUBLIC TBB::tbb)
