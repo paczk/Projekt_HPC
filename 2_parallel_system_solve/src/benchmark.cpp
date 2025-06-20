@@ -11,6 +11,8 @@ Eigen::Vector3d distance(double t)
 
 void MultibodySolverBenchmark(benchmark::State& state)
 {
+    
+    
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_real_distribution<> dist;
@@ -19,6 +21,11 @@ void MultibodySolverBenchmark(benchmark::State& state)
 
     auto n_platforms= state.range(0);
     auto n_leg_parts = state.range(1);
+    const auto max_threads = state.range(2);
+    const auto guard = oneapi::tbb::global_control{
+      oneapi::tbb::global_control::max_allowed_parallelism, static_cast<std::size_t>(max_threads)};
+
+    const auto block_size = state.range(3);
 
     double platform_size_x = 1000.0;
     double platform_size_y = 1000.0;
@@ -96,15 +103,19 @@ void MultibodySolverBenchmark(benchmark::State& state)
         }
     }
 
-    for(auto _ : state)
+    for (auto _ : state)
     {
-        for(auto& system : systems)
-        {
-            auto output = multibody_solver(system, 0.0);
-        }
+        oneapi::tbb::parallel_for(
+            oneapi::tbb::blocked_range<size_t>(0, systems.size()),
+            [&](const oneapi::tbb::blocked_range<size_t>& r)
+            {
+                for (size_t i = r.begin(); i != r.end(); ++i)
+                {
+                    auto output = multibody_solver(systems[i], 0.0, block_size);
+                }
+            });
     }
     state.SetItemsProcessed(state.iterations() * n_platforms * n_leg_parts);
-    state.SetBytesProcessed(state.iterations() * sizeof(systems));
 
     
 }
@@ -114,8 +125,10 @@ BENCHMARK(MultibodySolverBenchmark)->Unit(benchmark::kSecond)
     ({
         {4, 8, 16, 24, 48},  // Number of platforms in total
         {benchmark::CreateRange(2, 128, 2)}, // Number of legs' parts
+        {4, 8, 16, 24}, // Number of threads
+        {7, 14, 28, 56, 70} // Block size for Jacobian
     })
-    ->UseRealTime()->MeasureProcessCPUTime()->Name("Unoptimized Multibody Solver Benchmark (parameters: # of platforms, # of leg parts)");
+    ->UseRealTime()->MeasureProcessCPUTime()->Name("Par System solve (#platforms, #leg parts, #threads, block size)");
 
 
 BENCHMARK_MAIN();
